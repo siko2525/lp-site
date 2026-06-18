@@ -240,6 +240,7 @@ h2 { margin: 0; font-size: clamp(34px, 4.4vw, 64px); line-height: 1.55; font-wei
   background: var(--ink-deep);
 }
 .reservation h2 { margin-bottom: 25px; }
+.reservation-title-mobile { display: none; }
 .reservation-inner > p:not(.eyebrow) { margin: 0 0 42px; font-size: 14px; line-height: 2; }
 
 footer {
@@ -313,7 +314,9 @@ footer p, footer small { margin: 0; font: 500 12px var(--display); }
   .story-grid figure:last-child { grid-column: span 2; }
   .access-stamp { width: 130px; justify-self: end; }
   .reservation { min-height: 540px; }
-  .reservation h2 { font-size: 34px; }
+  .reservation h2 { font-size: 30px; }
+  .reservation-title-desktop { display: none; }
+  .reservation-title-mobile { display: block; white-space: nowrap; }
   footer { grid-template-columns: 1fr; align-items: start; padding: 60px 24px 100px; }
   .mobile-reserve {
     position: fixed; z-index: 18; left: 16px; right: 16px; bottom: 14px;
