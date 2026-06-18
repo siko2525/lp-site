@@ -1,6 +1,6 @@
 :root {
   --ink: #173a31;
-  --ink-deep: #0c2b24;
+  --ink-deep: #343635;
   --paper: #f4f2eb;
   --white: #fff;
   --gold: #b7a064;
@@ -77,7 +77,7 @@ button { font: inherit; }
 }
 .hero-shade {
   position: absolute; inset: 0;
-  background: linear-gradient(90deg, rgba(5, 31, 25, .82) 0%, rgba(5, 31, 25, .45) 46%, rgba(5, 31, 25, .1) 75%);
+  background: linear-gradient(90deg, rgba(28, 29, 29, .84) 0%, rgba(28, 29, 29, .48) 46%, rgba(28, 29, 29, .12) 75%);
 }
 .hero-content { z-index: 1; width: min(680px, 88vw); margin-left: 9vw; padding-top: 56px; }
 .eyebrow {
@@ -279,7 +279,7 @@ footer p, footer small { margin: 0; font: 500 12px var(--display); }
   .site-nav a { padding: 15px 0; border-bottom: 1px solid var(--line); }
   .nav-reserve { border: 0; }
   .hero { min-height: 700px; background-position: 63% center; align-items: flex-end; }
-  .hero-shade { background: linear-gradient(0deg, rgba(5,31,25,.88) 0%, rgba(5,31,25,.38) 70%, rgba(5,31,25,.18) 100%); }
+  .hero-shade { background: linear-gradient(0deg, rgba(28,29,29,.9) 0%, rgba(28,29,29,.4) 70%, rgba(28,29,29,.2) 100%); }
   .hero-content { margin: 0; padding: 0 24px 112px; width: 100%; }
   .hero h1 { font-size: 46px; }
   .hero-copy { font-size: 13px; }
