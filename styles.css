@@ -147,15 +147,6 @@ h2 { margin: 0; font-size: clamp(34px, 4.4vw, 64px); line-height: 1.55; font-wei
 .salon-gallery figure:hover img { transform: scale(1.025); }
 .gallery-main img { object-position: 50% 50%; }
 .gallery-side { display: grid; grid-template-rows: 1fr 1fr; }
-.salon-gallery figcaption {
-  position: absolute;
-  left: 25px;
-  bottom: 22px;
-  padding: 7px 10px;
-  color: var(--white);
-  background: rgba(12, 43, 36, .72);
-  font: 500 13px var(--display);
-}
 
 .menu-section { background: var(--ink-deep); color: var(--white); }
 .menu-intro { display: grid; grid-template-columns: 1fr 2.3fr; gap: 7vw; padding-bottom: 100px; }
@@ -219,7 +210,6 @@ footer {
   background: var(--paper);
 }
 footer p, footer small { margin: 0; font: 500 12px var(--display); }
-.photo-credit { color: rgba(23,58,49,.6); font-size: 10px; line-height: 2.4; }
 .mobile-reserve { display: none; }
 .reveal { opacity: 0; transform: translateY(26px); transition: opacity .8s, transform .8s; }
 .reveal.visible { opacity: 1; transform: none; }
@@ -258,7 +248,6 @@ footer p, footer small { margin: 0; font: 500 12px var(--display); }
   .salon-gallery { grid-template-columns: 1fr; min-height: 0; }
   .gallery-main { height: 62vw; min-height: 300px; }
   .gallery-side { grid-template-columns: 1fr 1fr; grid-template-rows: none; height: 48vw; min-height: 230px; }
-  .salon-gallery figcaption { left: 12px; bottom: 12px; font-size: 11px; }
   .menu-intro { padding-bottom: 70px; }
   .menu-item { grid-template-columns: 36px 1fr; gap: 20px; padding: 52px 24px; }
   .prices { grid-column: 2; }
